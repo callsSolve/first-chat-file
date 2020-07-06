@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>video </title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+    <!-- Awesome Icone -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+     rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/css/mdb.min.css" rel="stylesheet">
+    <script defer src="index.js"></script>
+</head>
+<body onload="showNumber(this)">
+
+    
+    <div class="container-div">
+        <div class="container-icone-bg">
+            <div class="container-icone">
+                <h4><span>Whatsapp</span></h4>
+                <i class="fa fa-search" id="search_box"></i>
+                <i class="fa fa-ellipsis-v"></i>
+            </div>
+        </div>
+        <div class="tab_container">
+            <div class="tab_items">
+                <i class="fa fa-camera fa-1x"></i> <h5 class="clickbutton" onclick="showTab(0)">CHATS<span class="message_number"></span></h5>
+                <h5 class="clickbutton"  onclick="showTab(1)">STATUS</h5>
+                <h5 class="clickbutton"  onclick="showTab(2)">CALLS</h5>
+            </div>
+            <div class="tabpanel">
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-9/c0.6.854.854a/s851x315/59923068_597820747364646_4255603272192098304_o.jpg?_nc_cat=101&_nc_sid=da31f3&_nc_ohc=LShonVd1PQgAX9Ci9kn&_nc_ht=scontent.fdel3-2.fna&oh=66260504a73cf48e73c5abff2a03f408&oe=5F1B2628" alt="Ajmal" title="Ajmal">
+                    <h6>Ajmal Ali<p><i class="fa fa-check check"></i>Lorem ipsum dolor sit amet.</p></h6>
+                    <span class="message_number_1"></span>
+                    <span>7:00 pm</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-9/s851x315/91754073_104159937915915_3703209016944492544_n.jpg?_nc_cat=103&_nc_sid=da31f3&_nc_ohc=Af2K6TrBoZwAX-7Gyyw&_nc_ht=scontent.fdel3-1.fna&_nc_tp=7&oh=d113bbf0c8f175a21318b29bba0f8636&oe=5F1AB551" alt="">
+                    <h6 class="heading_1">Sayad Ahmed Raza Shah<p><i class="fa fa-check check check_black"></i>How Are You Borther I hava a question</p></h6>
+                    <span>26/06/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://cdn.pixabay.com/photo/2018/02/25/17/46/architecture-3181231__340.jpg" alt="">
+                    <h6 class="heading">Abdulla Bro<p><i class="fa fa-check check"></i>I am asking how Javascript set musice</p></h6>
+                    <span>24/06/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://cdn.pixabay.com/photo/2013/04/02/19/53/students-99506__340.jpg" alt="">
+                    <h6 class="heading">Elvis Nestory<p><i class="fa fa-check check"></i>Borther you do a great job Javascript</p></h6>
+                    </span><span>22/06/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-9/s851x315/101199008_251384372857961_7649907937581727744_o.jpg?_nc_cat=101&_nc_sid=da31f3&_nc_ohc=fTCx6KEkX7gAX9tJG2e&_nc_ht=scontent.fdel3-2.fna&_nc_tp=7&oh=4c812f46cc514b8867999c18b30b9f81&oe=5F20BC13" alt="">
+                    <h6 class="heading">Pablo Rafael<p><i class="fa fa-check check"></i>Your work is very good Angulr js</p></h6>
+                    <span>26/06/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-9/c0.223.605.605a/s851x315/81402375_167940341247079_2458697046987636736_o.jpg?_nc_cat=104&_nc_sid=da31f3&_nc_ohc=XgOsSlk_slYAX_3Q3Ui&_nc_ht=scontent.fdel3-1.fna&oh=36b1ad3cb33f6a449b668d320fcb218d&oe=5F2029BA" alt="">
+                    <h6 class="heading">Vikas Kumar<p><i class="fa fa-check check check_black"></i>Borther working, you will go far ahead</p></h6>
+                    <span>26/06/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-9/c0.0.750.750a/s851x315/39589201_910357919164003_8387508801904836608_o.jpg?_nc_cat=101&_nc_sid=da31f3&_nc_ohc=vtakOgu0U9AAX_2xQ65&_nc_ht=scontent.fdel3-2.fna&oh=840e33572a5e7ac10d219642d49386a5&oe=5F1AD1A5" alt="">
+                    <h6 class="heading">Rohit Singh<p><i class="fa fa-check check"></i>Borther I had a question with you</p></h6>
+                    <span>20/06/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-9/s851x315/61106225_2276997629228832_5242245074984632320_n.jpg?_nc_cat=108&_nc_sid=da31f3&_nc_ohc=Uz6jj-rtT4cAX_r5jMe&_nc_ht=scontent.fdel3-2.fna&_nc_tp=7&oh=c5df7af8a83936d064f62dd80ca0a5a8&oe=5F1D3829" alt="">
+                    <h6 class="heading">Naresh Kumar<p><i class="fa fa-check check"></i>your designing work is very good</p></h6>
+                    <span>18/06/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-9/76652037_2435878496738548_5246321462805004288_o.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=fF9yPtPWg9kAX84pGyv&_nc_ht=scontent.fdel3-2.fna&oh=f45aa6a88932540d0da4049ab2097fc1&oe=5F21AB57" alt="">
+                    <h6 class="heading">Sumit Kumar<p><i class="fa fa-check check"></i>Where is borther less than you borther</p></h6>
+                    <span>22/05/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t31.0-8/18319305_1817189418607462_8619134046443029929_o.jpg?_nc_cat=102&_nc_sid=730e14&_nc_ohc=OeHbeNYZvDsAX_RsmSH&_nc_ht=scontent.fdel3-1.fna&oh=0fd808b7448feb2c82abbbeffbac5745&oe=5F1F3053" alt="">
+                    <h6 class="heading">illmuddin Shaikh<p><i class="fa fa-check check"></i>Borther, is very good borther</p></h6>
+                    <span>25/05/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-9/c0.172.960.960a/s851x315/67895643_1342649412554726_2825115065085067264_o.jpg?_nc_cat=109&_nc_sid=da31f3&_nc_ohc=GOEsrs6Hs64AX9NTQIB&_nc_ht=scontent.fdel3-1.fna&oh=e77918c0be6a00b82a1872869733cdd0&oe=5F1EB475" alt="">
+                    <h6 class="heading">Rohit Khan<p><i class="fa fa-check check check_black"></i>Borther, what happened to work,</p></h6>
+                    <span>26/06/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-9/45780291_725315227818386_6115082540924534784_o.jpg?_nc_cat=102&_nc_sid=8bfeb9&_nc_ohc=MM528Mp7hNwAX_1O-5B&_nc_ht=scontent.fdel3-1.fna&oh=1e6fd5f91338530b926f300661fa1273&oe=5F1BE261" alt="">
+                    <h6 class="heading">Md Naushad<p><i class="fa fa-check check"></i>What happened to borther hotel</p></h6>
+                    <span>15/06/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://pps.whatsapp.net/v/t61.24694-24/106431713_300152141165287_7181784726392935621_n.jpg?oh=3828c1120361f9d6ddd03746e90abde4&oe=5EFBD38C" alt="">
+                    <h6 class="heading">Raza Pawan<p><i class="fa fa-check check"></i>Assiment ka kya hua bhai dene hai</p></h6>
+                    <span>Yestrday</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-9/c0.0.720.720a/s851x315/94583485_642672826582858_7180856208453009408_n.jpg?_nc_cat=100&_nc_sid=da31f3&_nc_ohc=SJUj20hM0wAAX9IqhTq&_nc_ht=scontent.fdel3-1.fna&oh=370ccd6f734a4d8b2d9bf00cd02b5362&oe=5F1C434B" alt="">
+                    <h6 class="heading">Piyush Kumar<p><i class="fa fa-check check check_black"></i>Bhai SOL ka update aya assiment</p></h6>
+                    <span>22/06/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-9/s851x315/47571256_512051265962007_830949904032464896_n.jpg?_nc_cat=105&_nc_sid=da31f3&_nc_ohc=Ld4Sdil9Mg8AX9V6wHK&_nc_ht=scontent.fdel3-2.fna&_nc_tp=7&oh=5fb43b3fc57d96cb387ea6e5eadaa18f&oe=5F1D5B79" alt="">
+                    <h6 class="heading">Manpeerit Singh<p><i class="fa fa-check check"></i>Pubg khele bhai aao online khelte hai</p></h6>
+                    <span>26/06/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-9/84573030_572038680057587_3585680526834401280_n.jpg?_nc_cat=110&_nc_sid=8bfeb9&_nc_ohc=L4NTc1gXKNAAX8_6Q3P&_nc_ht=scontent.fdel3-2.fna&oh=0f2c0744d3d3d971156ffb6af2559c8f&oe=5F1B97EE" alt="">
+                    <h6 class="heading">Jaldeep Handa Bhai<p><i class="fa fa-check check"></i>Kya hall hai bhai jaan apke or suno</p></h6>
+                    <span>26/06/2020</span>
+                </div>
+                <div class="content_container">
+                    <img src="https://api.sololearn.com/Uploads/Avatars/16882555.jpg" alt="">
+                    <h6 class="heading">Front Lover<p><i class="fa fa-check check check_black"></i>F҉R҉O҉N҉T҉ 🔚& 🔙🔚/ 𝔸𝕣𝕕𝕦𝕚𝕟𝕠 Lover</p></h6>
+                    <span>25/06/2020</span>
+                </div>
+            </div>
+
+            <!-- stutas photo -->
+
+            <div class="tabpanel">
+                <div class="content_container">
+                    <img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-0/c0.0.304.304a/p180x540/38243765_444766642670058_7536823029226012672_o.jpg?_nc_cat=103&_nc_sid=da31f3&_nc_ohc=L-Rxv-xk3DsAX_uHNk4&_nc_ht=scontent.fdel3-1.fna&oh=ca91412d9ccb4ef37601a4a6e90c0d56&oe=5F1ADA71" alt="" style="width: 55px; height: 55px; top: -5px;">
+                    <h6>My Status<p>Tab to add status update</p></h6>
+                    <span>Yestrday</span>
+                </div>
+
+                <div class="update_stutas">
+                    <h4>Recent Updates</h4>
+                </div>
+                
+                <div class="content_container">
+                    <div class="img_container">
+                        <div class="img a">a</div>
+                    </div>
+                    <h6>Ajmal Ali<p>10 minutes ago Status Story</p></h6>
+                    <span><i class="fa fa-heartbeat fa-2x"></i></span>
+                </div>
+
+                <div class="content_container">
+                    <div class="img b">b</div>
+                    <h6 class="stutas_text">Ahmead Raza Shah<p class="stutes_time">5 hours ago Status Story</p></h6>
+                    <span><i class="fa fa-heartbeat fa-2x"></i></span>
+                </div>
+
+                <div class="content_container">
+                    <div class="img c">c</div>
+                    <h6 class="align">Elvis Nestory<p>2 hours ago Status Story</p></h6>
+                    <span><i class="fa fa-heartbeat fa-2x"></i></span>
+                </div>
+
+                <div class="content_container">
+                    <div class="img d">d</div>
+                    <h6>Abudul Bro<p>35 minutes ago Status Story</p></h6>
+                    <span><i class="fa fa-heartbeat fa-2x"></i></span>
+                </div>
+                
+                <div class="content_container">
+                    <div class="img e">e</div>
+                    <h6>Pablo Rafael<p>1 hours ago Status Story</p></h6>
+                    <span><i class="fa fa-heartbeat fa-2x"></i></span>
+                </div>
+        
+
+                <div class="content_container">
+                    <div class="img f">f</div>
+                    <h6>Vikas Kumar<p>10 hours ago Status Story</p></h6>
+                    <span><i class="fa fa-heartbeat fa-2x"></i></span>
+                </div>
+
+                <div class="content_container">
+                    <div class="img g">g</div>
+                    <h6>Front Lover<p>24 hours ago Status Story</p></h6>
+                    <span><i class="fa fa-heartbeat fa-2x"></i></span>
+                </div>
+
+              
+                <div class="content_container">
+                    <div class="img h">h</div>
+                    <h6>Rohit Singh<p>35 minutes ago Status Story</p></h6>
+                    <span><i class="fa fa-heartbeat fa-2x"></i></span>
+                </div>
+            </div>
+
+            <!-- call Deatila -->
+
+            <div class="tabpanel">
+                <div class="call_container">
+                    <img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-9/s851x315/91754073_104159937915915_3703209016944492544_n.jpg?_nc_cat=103&_nc_sid=da31f3&_nc_ohc=Af2K6TrBoZwAX-7Gyyw&_nc_ht=scontent.fdel3-1.fna&_nc_tp=7&oh=d113bbf0c8f175a21318b29bba0f8636&oe=5F1AB551" alt="">
+                    <h6 class="heading_1"><i class="fa fa-arrow-right icone_call"></i>Ahmed Raza Shah <p>Just Know</p></h6>
+                    <i class="fa fa-video-camera"></i>
+                </div>
+
+                <div class="call_container">
+                    <img src="https://pps.whatsapp.net/v/t61.24694-24/72488553_833552300396985_1575315408061753369_n.jpg?oh=3047ee9c70fa988eb1f7729f66ecae75&oe=5EFB96AB" alt="">
+                    <h6 class="heading_1"><i class="fa fa-arrow-right icone_call"></i>Abudul Bro Borther<p>Today, 5:00 am</p></h6>
+                    <i class="fa fa-phone"></i>
+                </div>
+
+                <div class="call_container">
+                    <img src="https://cdn.pixabay.com/photo/2013/04/02/19/53/students-99506__340.jpg" alt="">
+                    <h6 class="heading_1"><i class="fa fa-arrow-right icone_call"></i>Elvis Nestory Tanzania<p>Today, 10:30 am</p></h6>
+                    <i class="fa fa-video-camera"></i>
+                </div>
+
+                <div class="call_container">
+                    <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-9/s851x315/101199008_251384372857961_7649907937581727744_o.jpg?_nc_cat=101&_nc_sid=da31f3&_nc_ohc=fTCx6KEkX7gAX9tJG2e&_nc_ht=scontent.fdel3-2.fna&_nc_tp=7&oh=4c812f46cc514b8867999c18b30b9f81&oe=5F20BC13" alt="">
+                    <h6 class="heading_1"><i class="fa fa-arrow-right icone_call"></i>Pablo Rafael Brazil<p>Today, 4:30 pm</p></h6>
+                    <i class="fa fa-video-camera"></i>
+                </div>
+
+                <div class="call_container">
+                    <img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-9/s851x315/91754073_104159937915915_3703209016944492544_n.jpg?_nc_cat=103&_nc_sid=da31f3&_nc_ohc=Af2K6TrBoZwAX-7Gyyw&_nc_ht=scontent.fdel3-1.fna&_nc_tp=7&oh=d113bbf0c8f175a21318b29bba0f8636&oe=5F1AB551" alt="">
+                    <h6 class="heading_1"><i class="fa fa-arrow-right icone_call"></i>Ahmed Raza Shah <p>Today, 7:45 pm</p></h6>
+                    <i class="fa fa-phone"></i>
+                </div>
+
+                <div class="call_container">
+                    <img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-9/c0.223.605.605a/s851x315/81402375_167940341247079_2458697046987636736_o.jpg?_nc_cat=104&_nc_sid=da31f3&_nc_ohc=XgOsSlk_slYAX_3Q3Ui&_nc_ht=scontent.fdel3-1.fna&oh=36b1ad3cb33f6a449b668d320fcb218d&oe=5F2029BA" alt="">
+                    <h6 class="heading_1"><i class="fa fa-arrow-right icone_call"></i>Vikas Kumar Friends<p>Today, 9:10 pm</p></h6>
+                    <i class="fa fa-phone"></i>
+                </div>
+
+                <div class="call_container">
+                    <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-9/76652037_2435878496738548_5246321462805004288_o.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=fF9yPtPWg9kAX84pGyv&_nc_ht=scontent.fdel3-2.fna&oh=f45aa6a88932540d0da4049ab2097fc1&oe=5F21AB57" alt="">
+                    <h6 class="heading_1"><i class="fa fa-arrow-right icone_call"></i>Sumit Kumar Friends<p>26/05/2020</p></h6>
+                    <i class="fa fa-video-camera"></i>
+                </div>
+
+                <div class="call_container">
+                    <img src="https://scontent.fdel3-1.fna.fbcdn.net/v/t1.0-9/45780291_725315227818386_6115082540924534784_o.jpg?_nc_cat=102&_nc_sid=8bfeb9&_nc_ohc=MM528Mp7hNwAX_1O-5B&_nc_ht=scontent.fdel3-1.fna&oh=1e6fd5f91338530b926f300661fa1273&oe=5F1BE261" alt="">
+                    <h6 class="heading_1"><i class="fa fa-arrow-right icone_call"></i>Mohammad Naushad<p>05/06/2020</p></h6>
+                    <i class="fa fa-phone"></i>
+                </div>
+
+                <div class="call_container">
+                    <img src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.0-9/c0.6.854.854a/s851x315/59923068_597820747364646_4255603272192098304_o.jpg?_nc_cat=101&_nc_sid=da31f3&_nc_ohc=LShonVd1PQgAX9Ci9kn&_nc_ht=scontent.fdel3-2.fna&oh=66260504a73cf48e73c5abff2a03f408&oe=5F1B2628" alt="">
+                    <h6 class="heading_1"><i class="fa fa-arrow-right icone_call"></i>Mohammad Ajmal Ali<p>10/05/202</p></h6>
+                    <i class="fa fa-video-camera"></i>
+                </div>
+
+                <div class="call_container">
+                    <img src="https://api.sololearn.com/Uploads/Avatars/16882555.jpg" alt="">
+                    <h6 class="heading_1"><i class="fa fa-arrow-right icone_call"></i>Front Lover Sololearn<p>Today,3:00 am</p></h6>
+                    <i class="fa fa-phone"></i>
+                </div>
+            </div> 
+        </div>
+    </div>
+    
+    <script>
+        
+        
+let tab_containerAll = document.querySelectorAll(".tab_container .tab_items .clickbutton");
+let tab_panel = document.querySelectorAll(".tab_container .tabpanel");
+
+function showTab(tabMove, yellowTab){
+    tab_containerAll.forEach(function(tab){
+    });
+    tab_panel.forEach(function(tab){
+        tab.style.display = "none";
+    });
+    tab_panel[tabMove].style.display = "block";
+}
+
+showTab(0);
+
+// random Number message show
+
+function showNumber(){
+    document.querySelector(".message_number").innerHTML =  Math.floor(Math.random() * 20) + 1;
+}
+
+let songPlay = document.querySelectorAll(".img");
+for(let i = 0; i < songPlay.length; i++){
+
+    let one = document.querySelectorAll(".img")[i].addEventListener("click", func);
+    let two = document.querySelectorAll(".img")[i].addEventListener("dblclick", stop);
+}
+
+
+let song = new Audio();
+song.src = "https://www.tonesmp3.com/ringtones/lalki-odhaniya-khesari-lal.mp3";
+let songOne = new Audio();
+songOne.src = "https://www.tonesmp3.com/ringtones/musalman-phir-kafan-bandhe.mp3";
+let songTwo = new Audio();
+songTwo.src = "https://www.tonesmp3.com/ringtones/dirty-hair-joker-song.mp3";
+let songThree = new Audio();
+songThree.src = "https://www.tonesmp3.com/ringtones/ali-mola-tik-tok.mp3";
+let songFour = new Audio();
+songFour.src = "https://www.tonesmp3.com/ringtones/miss-you-more-by-sophia-angeles.mp3";
+let songFive = new Audio();
+songFive.src = "https://www.tonesmp3.com/ringtones/love-me-like-you-do-violin.mp3";
+let songSix = new Audio();
+songSix.src = "https://dl.prokerala.com/downloads/ringtones/files/mp3/mai-terra-akshay-babbal-rai-audiotrimmer-com-42118.mp3";
+let songSeven = new Audio();
+songSeven.src = "https://www.tonesmp3.com/ringtones/indian-army---desh-bhagti.mp3";
+
+function func(){
+    let musicePlay = this.innerHTML;
+
+    switch (musicePlay) {
+        case "a":
+            song.play();
+            break;
+        case "b":
+            songOne.play();
+            break;
+        case "c":
+            songTwo.play();
+            break;
+        case "d":
+            songThree.play();
+            break;
+        case "e":
+            songFour.play();
+            break;
+        case "f":
+            songFive.play();
+            break;
+        case "g":
+            songSix.play();
+            break;
+        case "h":
+            songSeven.play();
+            break;
+    
+        default:
+            alert("not")
+            break;
+    }
+}
+
+function stop(){
+    let musicePlay = this.innerHTML;
+
+    switch (musicePlay) {
+        case "a":
+            song.pause();
+            break;
+        case "b":
+            songOne.pause();
+            break;
+        case "c":
+            songTwo.pause();
+            break;
+        case "d":
+            songThree.pause();
+            break;
+        case "e":
+            songFour.pause();
+            break;
+        case "f":
+            songFive.pause();
+            break;
+        case "g":
+            songSix.pause();
+            break;
+        case "h":
+            songSeven.pause();
+            break;
+    
+        default:
+            alert("Sorry");
+            break;
+    }
+}
+
+    </script>
+
+   </body>
+</html>
