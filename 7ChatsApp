@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-Created By A Division Of Kel & Martha
+Created By A Division Of Kelvin & Martha
 -->
 <html>
     <head>
@@ -88,7 +88,7 @@ Created By A Division Of Kel & Martha
         <div id="emojiPicker">
         </div>
         <!--image for attachment options-->
-          <!--http://i0.wp.com/www.techplayce.com/wp-content/uploads/2016/03/whatsapp-sharing-pdf.jpg-->
-        <img id="attachments" src="https://www.dropbox.com/s/qfqzqgqiy41c67x/WhatsApp%20Image.jpeg?raw=1">
+          <!--http://i0.wp.com/www.techplayce.com/wp-content/uploads/2016/03/7ChatsApp-sharing-pdf.jpg-->
+        <img id="attachments" src="https://www.dropbox.com/s/qfqzqgqiy41c67x/7ChatsApp%20Image.jpeg?raw=1">
     </body>
 </html>
